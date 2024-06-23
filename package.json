@@ -1,0 +1,31 @@
+{
+	"name": "verify",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
+	},
+	"devDependencies": {
+		"@sveltejs/kit": "^2.5.17",
+		"@sveltejs/vite-plugin-svelte": "^3.1.1",
+		"autoprefixer": "^10.4.19",
+		"postcss": "^8.4.38",
+		"svelte": "^4.2.18",
+		"svelte-check": "^3.8.1",
+		"tailwindcss": "^3.4.4",
+		"typescript": "^5.4.5",
+		"vite": "^5.3.1"
+	},
+	"type": "module",
+	"dependencies": {
+		"@types/jsonwebtoken": "^9.0.6",
+		"axios": "^1.7.2",
+		"dotenv": "^16.4.5",
+		"jsonwebtoken": "^9.0.2",
+		"svelte-adapter-bun": "^0.5.2"
+	}
+}
